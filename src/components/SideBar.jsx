@@ -12,8 +12,6 @@ function SideBar(){
                             <Link to= "compras">
                                 Compras<BiCartDownload/>
                             </Link>
-                            
-                           
                         </li>
                         <li>
                             Vendas <BiDollar/>

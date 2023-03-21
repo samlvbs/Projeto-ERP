@@ -12,9 +12,6 @@ function App() {
         <Menu/>
         <SideBar/>
         <Outlet/>
-        
-        
-
     </div>
   )
 }

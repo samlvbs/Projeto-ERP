@@ -1,7 +1,5 @@
 .sidebar{
-    grid-column: 1 ;
-    grid-row: 2;
-    width: 50px;
+    grid-area: aside ;
 }
 
 aside {

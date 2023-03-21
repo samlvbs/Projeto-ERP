@@ -11,5 +11,10 @@ a {
 }
 
 .App {
-    display: grid; 
+    display: grid;
+    grid-template-columns: 20% 80%;
+    grid-template-rows: 10% 90%;
+    grid-template-areas: "header header" "aside content";
+    height: 100vh;
+    background-color: rgb(238, 236, 232);
 }
