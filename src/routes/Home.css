@@ -1,0 +1,4 @@
+.compras {
+    grid-column: 2 / span 2;
+    grid-row: 2;
+}

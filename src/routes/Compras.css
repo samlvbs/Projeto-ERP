@@ -1,0 +1,20 @@
+
+.cardCompras{
+    border: 1px solid black;
+    border-radius: 20px;
+    height: 100px;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(38, 39, 65);
+    color: white;
+}
+.cardCompras:hover{
+    background-color: rgb(236, 236, 236);
+    color: rgb(38, 39, 65);
+    cursor: pointer;
+}
+
+
