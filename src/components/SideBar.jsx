@@ -9,33 +9,35 @@ function SideBar(){
                 <aside>
                     <ul>
                         <li>
-                            <Link to= "compras">
-                                Compras<BiCartDownload/>
-                            </Link>
+                            <Link to= "compras">Compras<BiCartDownload/></Link>
                         </li>
                         <li>
-                            Vendas <BiDollar/>
+                           <Link to="vendas">Vendas <BiDollar/></Link> 
                         </li>
                         <li>
-                            Estoque <BiCart/>
+                           <Link to="estoque">Estoque <BiCart/></Link> 
                         </li>
                         <li>
-                            Saude Financeira <BiDonateHeart/>
+                            <Link to="saude-financeira">Saude Financeira <BiDonateHeart/></Link>
                         </li>
                         <li>
-                            Cadastrar Produtos <BiAddToQueue/>
+                            <Link to="cadastrar-produto">Cadastrar Produtos <BiAddToQueue/></Link>
                         </li>
                         <li>
-                            Cadastrar Comprador <BiUserCheck/>
+                            <Link to="cadastrar-comprador"> Cadastrar Comprador <BiUserCheck/></Link>
+                           
                         </li>
                         <li>
-                            Cadastrar Fornecedor <BiUserPlus/>
+                            <Link to="cadastrar-fornecedor">Cadastrar Fornecedor <BiUserPlus/></Link>
+                            
                         </li>
                         <li>
-                            Lista de Clientes <BiListUl/>
+                            <Link to="lista-clientes">Lista de Clientes <BiListUl/></Link>
+                            
                         </li>
                         <li>
-                            Lista de Fornecedores <BiListUl/>
+                            <Link to="lista-fornecedores">Lista de Fornecedores <BiListUl/></Link>
+                            
                         </li>
                     </ul>
                 </aside> 
