@@ -20,3 +20,9 @@
     border-radius: 5px;
     text-align: center;
 }
+
+#cadastrar{
+    background-color: rgb(74, 105, 95);
+    color: white;
+    font-size: large;
+}
