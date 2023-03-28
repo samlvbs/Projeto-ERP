@@ -1,8 +1,11 @@
 .compras {
     grid-area: content;
     display: flex;
+    flex-direction: column;
     justify-content: start;
-    gap: 5px;
+    align-items: end;
+    gap: 10px;
+    
 }
 
 .cardCompras{
@@ -16,8 +19,6 @@
     text-align: center;
     background-color: rgb(107, 99, 138);
     color: white;
-    margin: 20px 0px;
-    padding: 10px;
 }
 .cardCompras:hover{
     background-color: rgb(236, 236, 236);

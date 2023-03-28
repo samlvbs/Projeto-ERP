@@ -1,0 +1,22 @@
+.formNovaCompra{
+    border: 1px solid black;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 500px;
+    gap: 10px;
+    margin: 20px;
+    background-color: whitesmoke;
+
+}
+
+.formNovaCompra > input, select{
+    width: 60%;
+    height: 30px;
+    border-radius: 5px;
+    text-align: center;
+}

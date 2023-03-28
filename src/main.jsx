@@ -16,6 +16,7 @@ import SaudeFinanceira from './routes/SaudeFinanceira'
 import CadComp from './routes/CadComp';
 import ListForn from './routes/ListForn';
 import ListClientes from './routes/ListClientes';
+import NovaCompra from './routes/NovaCompra';
 
 
 const router = createBrowserRouter([
@@ -31,6 +32,10 @@ const router = createBrowserRouter([
       {
         path: "compras",
         element: <Compras/>,
+      },
+      {
+        path: "compras/nova-compra",
+        element: <NovaCompra/>,
       },
       {
         path: "vendas",
