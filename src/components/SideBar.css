@@ -11,7 +11,7 @@ aside {
 aside > ul{
     color: black;
     height: 90vh;
-    background-color: rgb(207, 207, 207);
+    background-color: rgb(101, 163, 142);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -19,7 +19,7 @@ aside > ul{
 }
 
 aside > ul > li {
-    color: black;
+    color: white;
     width: 100%;
     padding: 20px;
     text-align: center;
@@ -27,7 +27,7 @@ aside > ul > li {
 }
 
 aside > ul > li:hover {
-   background-color: rgb(79, 77, 83);
+   background-color: rgb(50, 65, 61);
    color: white;
    cursor: pointer;
    border-bottom: 1px solid white;

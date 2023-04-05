@@ -1,5 +1,4 @@
 .formNovaCompra{
-    border: 1px solid black;
     border-radius: 20px;
     display: flex;
     flex-direction: column;
@@ -10,13 +9,14 @@
     height: 500px;
     gap: 10px;
     margin: 20px;
-    background-color: whitesmoke;
+    background-color: rgb(177, 202, 194);
 
 }
 
 .formNovaCompra > input, select{
     width: 60%;
     height: 30px;
+    border: none;
     border-radius: 5px;
     text-align: center;
 }

@@ -17,12 +17,12 @@
     align-items: center;
     justify-content: center;
     text-align: center;
-    background-color: rgb(107, 99, 138);
+    background-color: rgb(101, 163, 142);
     color: white;
 }
 .cardCompras:hover{
-    background-color: rgb(236, 236, 236);
-    color: rgb(38, 39, 65);
+    background-color: rgb(50, 65, 61);
+    color: white;
     cursor: pointer;
 }
 
