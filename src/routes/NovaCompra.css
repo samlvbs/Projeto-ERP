@@ -1,28 +1,49 @@
+.containerForm{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    margin: 20px;
+}
 .formNovaCompra{
     border-radius: 20px;
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
+    justify-content: flex-start;
+    min-width: 230px;
     align-items: center;
-    justify-content: center;
     width: 50%;
+    flex-wrap: wrap;
     height: 500px;
-    gap: 10px;
+    gap: 20px;
     margin: 20px;
+    padding: 40px;
     background-color: rgb(177, 202, 194);
 
 }
 
-.formNovaCompra > input, select{
-    width: 60%;
-    height: 30px;
-    border: none;
-    border-radius: 5px;
+.divInput{
+    display: flex;
+    max-width: 100%;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    gap: 5px;
+    font-weight:bold;
     text-align: center;
 }
-
-#cadastrar{
-    background-color: rgb(74, 105, 95);
+.divInput > input, select{
+    border: none;
+    border-radius: 20px;
+    padding: 5px;
+    text-align: center;
+}
+button{
+    width: 70px;
+    height: 30px;
+    border: none;
+    border-radius: 20px;
+    background-color: rgb(59, 129, 59);
     color: white;
-    font-size: large;
+
 }
