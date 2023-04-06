@@ -6,7 +6,6 @@ function NovaCompra(){
         <div className="containerForm">
             <h1>Cadastrar Compra</h1>
             <form className="formNovaCompra">
-                {/* <h3>Insira os dados da compra<br/>Ao finalizar clique em cadastrar ou em + para adicionar novos itens</h3> */}
                 <div className="divInput">
                     <label for="cliente">Nome Cliente</label>
                     <input type="text" placeholder="Cliente" id="cliente"/>

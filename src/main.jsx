@@ -17,6 +17,7 @@ import CadComp from './routes/CadComp';
 import ListForn from './routes/ListForn';
 import ListClientes from './routes/ListClientes';
 import NovaCompra from './routes/NovaCompra';
+import Login from './routes/Login';
 
 
 const router = createBrowserRouter([
@@ -26,8 +27,16 @@ const router = createBrowserRouter([
     errorElement: <ErrorPage/>,
     children: [
       {
+        path: "app",
+        element: <App/>,
+      },
+      {
         path: "/",
         element: <Home/>,
+      },
+      {
+        path: "login",
+        element: <Login/>,
       },
       {
         path: "compras",
@@ -77,6 +86,6 @@ const router = createBrowserRouter([
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <RouterProvider router={router}/>
+    <RouterProvider router={router}/>,
   </React.StrictMode>,
 )

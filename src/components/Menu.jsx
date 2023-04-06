@@ -17,7 +17,8 @@ function Menu(){
                         Contato
                     </li>
                     <li>
-                        Login
+                        <Link to="login"> Login</Link>
+                       
                     </li>
                 </ul>
             </nav>

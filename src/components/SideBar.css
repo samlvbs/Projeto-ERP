@@ -32,3 +32,8 @@ aside > ul > li:hover {
    cursor: pointer;
    border-bottom: 1px solid white;
 }
+@media (max-width: 700px){
+    aside{
+        width: 100px;
+    }
+}

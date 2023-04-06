@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(218, 218, 218);
+    height: 100vh;
+    width: 100%;
+}
+header{
+    height: 15%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.userPic{
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 100%;
+    background-image: url(../imagens/simbReciclcagem.png);
+    background-size: 90%;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 10px;
+    width: 100px;
+    height: 100px;
+}
+main{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    box-shadow: 5px 5px 8px 10px #c9c9c9;
+    margin: 20px;
+    height: 75%;
+    width: 80%;
+}
+.registration{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 40%;
+    height: 100%;
+    background-color: rgb(106, 194, 164);
+    color: white;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+}
+.registration h2{
+    font-size: 20px;
+}
+#btnReg{
+    border: 1px solid white;
+    border-radius: 20px;
+    padding: 8px;
+    margin: 20px;
+    width: 40%;
+    color: white;
+    background-color: rgb(106, 194, 164) ;
+}
+#btnReg:hover{
+    cursor: pointer;
+    background-color: white;
+    color:rgb(106, 194, 164) ;
+    transition: all ease-in 0.2s;
+    width: 50%;
+}
+.into{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: white;
+    width: 60%;
+    height: 100%;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.into h1{
+    color:rgb(106, 194, 164) ;
+   
+}
+.into h2{
+    font-size: 20px;
+    color:rgb(106, 194, 164) ;
+    margin-bottom: 20px;
+}
+.txtName{
+    border: 0;
+    border-radius: 5px;
+    background-color: rgb(221, 221, 221);
+    width: 50%;
+    font-size: 20px;
+    padding: 10px;
+    margin: 10px;
+}
+.txtPassword{
+    border: 0;
+    border-radius: 5px;
+    background-color: rgb(221, 221, 221);
+    width: 50%;
+    font-size: 20px;
+    padding: 10px;
+    margin: 5px 0px 20px 0px;
+}
+#btnLogin{
+    border: 1px solid white;
+    border-radius: 20px;
+    padding: 8px;
+    margin: 10px;
+    width: 20%;
+    color: white;
+    background-color: rgb(106, 194, 164);
+    
+}
+#btnLogin:hover{
+    cursor: pointer;
+    transition: all ease-in 0.2s;
+    width: 25%;
+}
+@media (max-width: 700px ) {
+    .userPic{
+        width: 80px;
+        height: 80px;
+        margin: 10px 0px 0px 0px;
+    }
+    main{
+        width: 90%;
+        flex-direction: column-reverse;
+        gap: 10px;
+    }
+    .into{
+        width: 100%;
+        height: 70%;
+        border-radius: 10px;
+    }
+    .registration{
+        width: 100%;
+        height: 30%;
+        border-radius: 10px;
+    }
+
+}
