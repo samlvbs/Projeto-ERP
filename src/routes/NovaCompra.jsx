@@ -1,4 +1,6 @@
 import React from "react";
+import Modal from "react-modal";
+
 import './NovaCompra.css';
 
 function NovaCompra(){
